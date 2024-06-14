@@ -63,7 +63,7 @@ export default function Home() {
   <div className=" h-[calc(100vh-80px)]  overflow-y-scroll bg-white">
 <Hero setShowBet={setShowBet}/>
 <p className="text-5xl font-bold text-center mt-20 text-black">Do You Have What It Takes To Win?</p>
-<Table columns={columns} data={data} />
+<Table  />
 <Latest/>
 <Footer/>
 
